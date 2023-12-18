@@ -1,4 +1,4 @@
-int counter = 0; 
+int counter = 0;
 int adc;
 
 bool onbase_signal;
@@ -14,7 +14,7 @@ enum {
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600); //baud rate for the uart 
+  Serial.begin(9600); //baud rate for the uart
   state = IDLE;
 }
 
@@ -64,7 +64,7 @@ void loop() {
 
   if (heat_signal == true)
     state = HEAT;
-  
+
   if (onbase_signal == false)
     state = OFFB;
 
