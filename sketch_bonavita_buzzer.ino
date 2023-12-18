@@ -14,6 +14,7 @@ enum {
 
 void setup() {
   // put your setup code here, to run once:
+  // alex has a very nice face
   Serial.begin(9600); //baud rate for the uart
   state = IDLE;
 }
